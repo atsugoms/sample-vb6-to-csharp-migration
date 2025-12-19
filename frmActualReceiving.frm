@@ -14,42 +14,14 @@ Begin VB.Form frmActualReceiving
       Caption         =   "入庫実績詳細"
       Height          =   2895
       Left            =   120
-      TabIndex        =   6
+      TabIndex        =   14
       Top             =   120
       Width           =   11175
-      Begin VB.TextBox txtReceivingDate 
+      Begin VB.TextBox txtOrderNumber 
          Height          =   375
-         Left            =   1680
-         TabIndex        =   6
-         Top             =   2400
-         Width           =   2415
-      End
-      Begin VB.TextBox txtShelfNumber 
-         Height          =   375
-         Left            =   1680
-         TabIndex        =   5
-         Top             =   1920
-         Width           =   2415
-      End
-      Begin VB.TextBox txtInspectionError 
-         Height          =   375
-         Left            =   1680
-         TabIndex        =   4
-         Top             =   1440
-         Width           =   2415
-      End
-      Begin VB.TextBox txtBarcodeType 
-         Height          =   375
-         Left            =   1680
-         TabIndex        =   3
-         Top             =   960
-         Width           =   2415
-      End
-      Begin VB.TextBox txtQuantity 
-         Height          =   375
-         Left            =   1680
-         TabIndex        =   2
-         Top             =   480
+         Left            =   6360
+         TabIndex        =   0
+         Top             =   240
          Width           =   2415
       End
       Begin VB.TextBox txtProductCode 
@@ -59,11 +31,39 @@ Begin VB.Form frmActualReceiving
          Top             =   480
          Width           =   2415
       End
-      Begin VB.TextBox txtOrderNumber 
+      Begin VB.TextBox txtQuantity 
          Height          =   375
-         Left            =   6360
-         TabIndex        =   0
-         Top             =   240
+         Left            =   1680
+         TabIndex        =   2
+         Top             =   480
+         Width           =   2415
+      End
+      Begin VB.TextBox txtBarcodeType 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   3
+         Top             =   960
+         Width           =   2415
+      End
+      Begin VB.TextBox txtInspectionError 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   4
+         Top             =   1440
+         Width           =   2415
+      End
+      Begin VB.TextBox txtShelfNumber 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   5
+         Top             =   1920
+         Width           =   2415
+      End
+      Begin VB.TextBox txtReceivingDate 
+         Height          =   375
+         Left            =   1680
+         TabIndex        =   6
+         Top             =   2400
          Width           =   2415
       End
       Begin VB.Label Label7 
