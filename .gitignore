@@ -1,0 +1,24 @@
+# VB6 Build artifacts
+*.exe
+*.dll
+*.ocx
+*.log
+*.vbw
+
+# VB6 user files
+*.vbw
+
+# Compiled files
+*.obj
+*.pdb
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# IDE files
+.vs/
